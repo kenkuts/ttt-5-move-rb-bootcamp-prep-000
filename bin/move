@@ -5,10 +5,11 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
 puts "Where would you like to go?"
-index = gets.strip
+index = gets.chomp
 
 selected = input_to_index(index)
-puts selected
 board = move(board, selected, "X")
+
+board.each {|i| print "#{i}, "}
 
 display_board(board)
