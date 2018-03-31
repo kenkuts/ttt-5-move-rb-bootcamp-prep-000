@@ -10,6 +10,4 @@ index = gets.chomp
 selected = input_to_index(index)
 board = move(board, selected, "X")
 
-board.each {|i| print "#{i}, "}
-
 display_board(board)
