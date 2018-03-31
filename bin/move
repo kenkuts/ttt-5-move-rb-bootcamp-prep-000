@@ -8,6 +8,6 @@ puts "Where would you like to go?"
 index = gets.chomp
 
 selected = input_to_index(index)
-board = move(board, selected, "X")
+move(board, selected, "X")
 
 display_board(board)
