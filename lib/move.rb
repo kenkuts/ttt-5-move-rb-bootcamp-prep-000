@@ -13,7 +13,6 @@ end
 
 def move(board, index, character="X")
   board[index] = character
-  # board.each {|i| print "#{i}, "}
 end
 
 def get_variable_from_file(file, variable)
