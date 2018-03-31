@@ -10,5 +10,5 @@ index = gets.strip
 selected = input_to_index(index)
 puts selected
 board = move(board, selected, "X")
-puts board
+print board
 display_board(board)
