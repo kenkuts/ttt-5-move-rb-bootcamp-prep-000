@@ -8,6 +8,7 @@ puts "Where would you like to go?"
 index = gets.strip
 
 selected = input_to_index(index)
+puts selected
 new_move = move(board, selected, "X")
 
 display_board(new_move)
